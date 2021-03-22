@@ -1,0 +1,47 @@
+/* Especificação para caixa do meio */
+.caixa2{
+    background-color: var(--color-primary);
+    border-radius: 0.7em;
+    text-align: center; 
+}
+.caixa2 label{
+    color: var(--color-light);
+    padding: 0 1rem 2rem 0;
+    font-weight: 500;
+}
+.titulo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-light);
+    padding: 0.5em 0;
+}
+/* Botões */
+.botoes-login button{
+    font-weight: 800;
+    font-size: medium; 
+    color: var(--color-light);
+    background-color: var(--color-secondary);
+    padding: 0.8em 2em;  
+    border: none;
+    border-radius: 5px;
+}
+.botoes-login button:hover{
+    background-color: var(--color-primary);
+    border-width: 0.2em;
+    padding: 0.6em 1.8em;
+    border-style:solid;
+
+}
+.icons{
+    max-width: 5rem;
+    padding: 0 1rem;
+}
+.caixa-icons{
+    padding: 2rem 0 2rem 0;
+}
+/* Autenticação */
+.notification{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ff8f9e;
+}

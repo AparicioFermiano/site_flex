@@ -1,0 +1,93 @@
+:root{
+    --color-primary: #6100AD;
+    --color-primary-2: #A582D8;
+    --color-secondary: #141316;
+    --color-secondary-2: #303030;
+    --color-light: #F2F2F2;
+    --color-light2: #e0e0e0;
+}
+html, body{
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    min-height: 100%;
+    margin: 0;   
+}
+li{
+    padding: 0;
+}
+.navbar-container {
+    display: flex;
+    list-style-type: none;
+}
+/*Decoração da lista na Navbar*/
+.navbar-container a{
+    text-decoration: none;
+    color: var(--color-primary);
+    align-items: center;
+}
+.navbar-container a:hover{
+    text-decoration: none;
+    color: var(--color-primary-2);
+}
+/* Definição da Navbar */
+.navbar{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    background-color: var(--color-light);
+    padding: 1rem 4rem;
+}
+/* Logo */
+.logo{
+    width: 10em;
+    text-align: center;   
+}
+/* Distancia entre a nav e o */
+.padding{
+    margin: 2rem;
+}
+label{
+    font-weight:700;
+    font-size: larger;
+}
+input{
+    border-radius: 0.5em;
+    outline: none;
+    color: var(--color-primary);
+    padding: 0.5em;
+    border: none;
+    border-color: none;
+}
+input:hover{
+    background-color: var(--color-light2);
+}
+/* footer */
+.footer{
+    background-color: var(--color-primary);
+    padding: 1em 3em;
+    bottom: 0%;
+    position:absolute;
+    bottom:0;
+    width:100%; 
+    color: var(--color-light);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.footer p{
+    padding: 0%;
+    margin: 0%;
+}
+@media screen and (max-width: 400px) {
+    .icons{
+        max-width: 4rem;
+        padding: 0 0.8rem;
+    }
+    .logo{
+        width: 8em;
+    }
+    .navbar{
+        font-size: 1em;
+        background-color: var(--color-light);
+        padding: 1rem 4rem;
+    }
+}

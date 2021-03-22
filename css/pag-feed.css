@@ -1,0 +1,14 @@
+.container-base{
+    text-align: center;
+}
+.padding-btn{
+    padding: 5% 0 0 0;
+}
+.img{
+    width: 30%;
+}
+.container-titulo{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
